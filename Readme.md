@@ -78,7 +78,6 @@ sentiment-dashboard/
 3️⃣ Model returns:
    - Sentiment label
    - Confidence score
-<br>
 4️⃣ Result page displays:
    - Input text
    - Classification label
