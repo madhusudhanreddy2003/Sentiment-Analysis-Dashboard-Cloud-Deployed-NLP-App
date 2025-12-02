@@ -54,6 +54,12 @@ It performs real-time sentiment classification (Positive / Negative) and is opti
 ## 📁 Project Structure
 ```bash
 sentiment-dashboard/
+│── Screenshots/
+│   ├── Dash Board UI.png
+│   ├── Deploying in CLI.png
+│   ├── Google Cloud run dashboard.png
+│   ├── Hugging face API Token.png
+│   ├── Results UI.png
 │── app.py
 │── templates/
 │   ├── index.html
@@ -71,7 +77,8 @@ sentiment-dashboard/
 2️⃣ Flask backend forwards text to the HuggingFace model<br>
 3️⃣ Model returns:
    - Sentiment label
-   - Confidence score<br>
+   - Confidence score
+<br>
 4️⃣ Result page displays:
    - Input text
    - Classification label
