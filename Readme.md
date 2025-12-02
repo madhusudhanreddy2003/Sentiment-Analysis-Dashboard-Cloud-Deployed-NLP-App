@@ -1,32 +1,36 @@
 ## 🧠 Sentiment Analysis Dashboard – Cloud-Deployed NLP App
 
-----
+---
 
 ### Real-time Sentiment Analysis using HuggingFace Transformers, Flask & Google Cloud Run
-This project is a fully containerized, production-ready sentiment analysis web application built with Flask, powered by a HuggingFace Transformer model, and deployed on <b>**Google Cloud Run using Docker + Cloud Build.**</b>
+
+This project is a fully containerized, production-ready sentiment analysis web application built with Flask, powered by a HuggingFace Transformer model, and deployed on **Google Cloud Run using Docker + Cloud Build.**
 <br>
 It performs real-time sentiment classification (Positive / Negative) and is optimized to run in a CPU-only cloud environment with lightweight models and fast inference.
+
 ---
 
 ## APP URL
 [https://sentiment-app-672537538984.asia-south1.run.app](https://sentiment-app-672537538984.asia-south1.run.app/)
 
+---
+
 ## 🌟 Key Features
-🔍 Real-Time Sentiment Analysis
+#### 🔍 Real-Time Sentiment Analysis
 - Uses a light-weight HuggingFace transformer model
 - Predicts Positive / Negative sentiment
 - Provides confidence scoring
-<br>
-🌐 Cloud-Native Deployment
+
+#### 🌐 Cloud-Native Deployment
 - Fully deployed on Google Cloud Run
 - Auto-scaling, serverless, highly available
 - Cold-start optimized
-<br>
-🐳 Dockerized Application
+
+#### 🐳 Dockerized Application
 - Dockerfile optimized for small image size
 - CPU-compatible Torch + Transformers
-<br>
-🎨 Modern UI Dashboard
+
+#### 🎨 Modern UI Dashboard
 - Clean, responsive interface
 - Gradient background
 - User-friendly interaction
@@ -59,14 +63,15 @@ sentiment-dashboard/
 │── README.md
 
 ```
+---
 
 ## ⚙️ How It Works
 
-1️⃣ User enters a sentence
-2️⃣ Flask backend forwards text to the HuggingFace model
+1️⃣ User enters a sentence<br>
+2️⃣ Flask backend forwards text to the HuggingFace model<br>
 3️⃣ Model returns:
    - Sentiment label
-   - Confidence score
+   - Confidence score<br>
 4️⃣ Result page displays:
    - Input text
    - Classification label
@@ -74,12 +79,12 @@ sentiment-dashboard/
 
 ---
 ## 🚀 Deployment Pipeline (Google Cloud Run)
-Step 1: Build Docker Image
+**Step 1: Build Docker Image**
 ```bash
 gcloud builds submit --tag gcr.io/<project-id>/sentiment-app
 ```
 
-Step 2: Deploy to Cloud Run
+**Step 2: Deploy to Cloud Run**
 ```bash
 gcloud run deploy sentiment-app `
    --image gcr.io/sentiment-dashboard-project/sentiment-app `
@@ -90,9 +95,9 @@ gcloud run deploy sentiment-app `
 
 ```
 
-Step 3: Access Public URL<br>
+**Step 3: Access Public URL**<br>
 Cloud Run automatically generates a secure HTTPS URL<br>
-Example:
+*Example*:
 ```bash
 https://sentiment-app-xxxxxx.asia-south1.run.app
 
@@ -122,7 +127,7 @@ Optimized for:
 
 🔵 **Dashboard UI**
 
-![Dashboard UI](Screenshots/Dashboard%20UI.png)
+![Dashboard UI](Screenshots/Dash%20Board%20UI.png)
 
 ---
 
