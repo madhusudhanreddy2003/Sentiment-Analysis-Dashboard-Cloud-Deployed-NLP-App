@@ -2,7 +2,7 @@
 
 ---
 
-### Real-time Sentiment Analysis using HuggingFace Transformers, Flask & Google Cloud Run
+#### Real-time Sentiment Analysis using HuggingFace Transformers, Flask & Google Cloud Run
 
 This project is a fully containerized, production-ready sentiment analysis web application built with Flask, powered by a HuggingFace Transformer model, and deployed on **Google Cloud Run using Docker + Cloud Build.**
 <br>
