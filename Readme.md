@@ -73,9 +73,9 @@ sentiment-dashboard/
 
 ## ⚙️ How It Works
 
-### 1️⃣ User enters a sentence<br>
-### 2️⃣ Flask backend forwards text to the HuggingFace model<br>
-### 3️⃣ Model returns:
+#### 1️⃣ User enters a sentence<br>
+#### 2️⃣ Flask backend forwards text to the HuggingFace model<br>
+#### 3️⃣ Model returns:
    - Sentiment label
    - Confidence score
 #### 4️⃣ Result page displays:
